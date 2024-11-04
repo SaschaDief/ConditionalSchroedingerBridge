@@ -1,8 +1,0 @@
-usage: sample.py [-h] [--seed SEED] [--n-gpu-per-node N_GPU_PER_NODE] [--master-address MASTER_ADDRESS] [--node-rank NODE_RANK]
-                 [--num-proc-node NUM_PROC_NODE] [--partition PARTITION] [--sample-name SAMPLE_NAME] [--batch-size BATCH_SIZE]
-                 [--ckpt CKPT] [--nfe NFE] [--clip-denoise] [--use-fp16] [--n-ensemble N_ENSEMBLE]
-                 [--n-ensemble-start N_ENSEMBLE_START] [--n-eval N_EVAL] [--save-target SAVE_TARGET] [--hidden-dim HIDDEN_DIM]
-                 [--nresnet NRESNET]
-sample.py: error: argument --nresnet: expected one argument
-srun: error: nid001501: task 0: Exited with exit code 2
-srun: Terminating StepId=24444737.0
