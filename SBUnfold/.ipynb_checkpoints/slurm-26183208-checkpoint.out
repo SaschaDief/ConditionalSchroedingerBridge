@@ -1,0 +1,359 @@
+[15:47:33] INFO     (0:00:00) =======================================================                                                              
+           INFO     (0:00:00)          Unfolding Schrodinger Bridge                                                                                
+           INFO     (0:00:00) =======================================================                                                              
+           INFO     (0:00:00) Command used:                                                                                                        
+                    train_physics.py --corrupt BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond --n-gpu-per-node 1 --beta-max 0.1       
+                    --sample-name OmniFold_train_small.h5 --num-itr 1000000 --kl 1.0 --hidden-dim 45 --nresnet 4 --cond-x1                         
+           INFO     (0:00:00) Experiment ID: BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond                                           
+1.0
+1.0
+[15:47:38] INFO     (0:00:04) Saved options pickle to results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond/options.pkl!             
+           INFO     (0:00:05) [Diffusion] Built I2SB diffusion: steps=1000!                                                                        
+           INFO     (0:00:05) [Diffusion] Number of trainable parameters: 52836!                                                                   
+[15:47:42] INFO     (0:00:08) [Opt] Built AdamW optimizer optim_dict={'lr': 0.001, 'weight_decay': 0.0}!                                           
+           INFO     (0:00:08) [Opt] Built lr step scheduler sched_dict={'step_size': 500, 'gamma': 0.99}!                                          
+[15:47:48] INFO     (0:00:14) train_it 1/1000000 | lr:1.00e-03 | loss:+14.5076                                                                     
+           INFO     (0:00:15) Saved latest(it=0) checkpoint to                                                                                     
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[15:48:50] INFO     (0:01:16) train_it 5001/1000000 | lr:9.04e-04 | loss:+4.7941                                                                   
+[15:49:56] INFO     (0:02:22) train_it 10001/1000000 | lr:8.18e-04 | loss:+3.5314                                                                  
+[15:51:01] INFO     (0:03:28) train_it 15001/1000000 | lr:7.40e-04 | loss:+3.2986                                                                  
+[15:51:02] INFO     (0:03:28) Saved latest(it=15000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[15:52:03] INFO     (0:04:29) train_it 20001/1000000 | lr:6.69e-04 | loss:+3.1830                                                                  
+[15:53:03] INFO     (0:05:30) train_it 25001/1000000 | lr:6.05e-04 | loss:+3.1057                                                                  
+[15:54:04] INFO     (0:06:30) train_it 30001/1000000 | lr:5.47e-04 | loss:+3.0724                                                                  
+           INFO     (0:06:31) Saved latest(it=30000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[15:55:08] INFO     (0:07:35) train_it 35001/1000000 | lr:4.95e-04 | loss:+3.0220                                                                  
+[15:56:13] INFO     (0:08:39) train_it 40001/1000000 | lr:4.48e-04 | loss:+2.9895                                                                  
+[15:57:18] INFO     (0:09:44) train_it 45001/1000000 | lr:4.05e-04 | loss:+2.9639                                                                  
+           INFO     (0:09:45) Saved latest(it=45000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[15:58:22] INFO     (0:10:48) train_it 50001/1000000 | lr:3.66e-04 | loss:+2.9599                                                                  
+[15:59:26] INFO     (0:11:53) train_it 55001/1000000 | lr:3.31e-04 | loss:+2.9337                                                                  
+[16:00:30] INFO     (0:12:57) train_it 60001/1000000 | lr:2.99e-04 | loss:+2.9098                                                                  
+[16:00:31] INFO     (0:12:57) Saved latest(it=60000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:01:33] INFO     (0:14:00) train_it 65001/1000000 | lr:2.71e-04 | loss:+2.8985                                                                  
+[16:02:34] INFO     (0:15:00) train_it 70001/1000000 | lr:2.45e-04 | loss:+2.8852                                                                  
+[16:03:35] INFO     (0:16:01) train_it 75001/1000000 | lr:2.21e-04 | loss:+2.8855                                                                  
+           INFO     (0:16:02) Saved latest(it=75000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:04:38] INFO     (0:17:04) train_it 80001/1000000 | lr:2.00e-04 | loss:+2.8731                                                                  
+[16:05:43] INFO     (0:18:10) train_it 85001/1000000 | lr:1.81e-04 | loss:+2.8612                                                                  
+[16:06:45] INFO     (0:19:11) train_it 90001/1000000 | lr:1.64e-04 | loss:+2.8577                                                                  
+           INFO     (0:19:11) Saved latest(it=90000) checkpoint to                                                                                 
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:07:47] INFO     (0:20:13) train_it 95001/1000000 | lr:1.48e-04 | loss:+2.8430                                                                  
+[16:08:52] INFO     (0:21:19) train_it 100001/1000000 | lr:1.34e-04 | loss:+2.8426                                                                 
+[16:09:58] INFO     (0:22:24) train_it 105001/1000000 | lr:1.21e-04 | loss:+2.8325                                                                 
+           INFO     (0:22:24) Saved latest(it=105000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:11:03] INFO     (0:23:30) train_it 110001/1000000 | lr:1.10e-04 | loss:+2.8341                                                                 
+[16:12:09] INFO     (0:24:35) train_it 115001/1000000 | lr:9.91e-05 | loss:+2.8292                                                                 
+[16:13:12] INFO     (0:25:38) train_it 120001/1000000 | lr:8.96e-05 | loss:+2.8434                                                                 
+           INFO     (0:25:38) Saved latest(it=120000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:14:13] INFO     (0:26:39) train_it 125001/1000000 | lr:8.11e-05 | loss:+2.8264                                                                 
+[16:15:17] INFO     (0:27:44) train_it 130001/1000000 | lr:7.33e-05 | loss:+2.8079                                                                 
+[16:16:22] INFO     (0:28:49) train_it 135001/1000000 | lr:6.63e-05 | loss:+2.8012                                                                 
+           INFO     (0:28:49) Saved latest(it=135000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:17:27] INFO     (0:29:54) train_it 140001/1000000 | lr:6.00e-05 | loss:+2.8072                                                                 
+[16:18:32] INFO     (0:30:59) train_it 145001/1000000 | lr:5.42e-05 | loss:+2.7944                                                                 
+[16:19:37] INFO     (0:32:04) train_it 150001/1000000 | lr:4.90e-05 | loss:+2.8146                                                                 
+           INFO     (0:32:04) Saved latest(it=150000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:20:42] INFO     (0:33:08) train_it 155001/1000000 | lr:4.44e-05 | loss:+2.7912                                                                 
+[16:21:47] INFO     (0:34:14) train_it 160001/1000000 | lr:4.01e-05 | loss:+2.8025                                                                 
+[16:22:53] INFO     (0:35:19) train_it 165001/1000000 | lr:3.63e-05 | loss:+2.7816                                                                 
+           INFO     (0:35:20) Saved latest(it=165000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:23:58] INFO     (0:36:25) train_it 170001/1000000 | lr:3.28e-05 | loss:+2.7950                                                                 
+[16:25:04] INFO     (0:37:31) train_it 175001/1000000 | lr:2.97e-05 | loss:+2.7992                                                                 
+[16:26:10] INFO     (0:38:36) train_it 180001/1000000 | lr:2.68e-05 | loss:+2.7964                                                                 
+           INFO     (0:38:36) Saved latest(it=180000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:27:15] INFO     (0:39:41) train_it 185001/1000000 | lr:2.43e-05 | loss:+2.7908                                                                 
+[16:28:20] INFO     (0:40:47) train_it 190001/1000000 | lr:2.19e-05 | loss:+2.7985                                                                 
+[16:29:26] INFO     (0:41:52) train_it 195001/1000000 | lr:1.98e-05 | loss:+2.7857                                                                 
+           INFO     (0:41:52) Saved latest(it=195000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:30:31] INFO     (0:42:58) train_it 200001/1000000 | lr:1.80e-05 | loss:+2.7895                                                                 
+[16:31:37] INFO     (0:44:04) train_it 205001/1000000 | lr:1.62e-05 | loss:+2.7873                                                                 
+[16:32:42] INFO     (0:45:09) train_it 210001/1000000 | lr:1.47e-05 | loss:+2.7866                                                                 
+           INFO     (0:45:09) Saved latest(it=210000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:33:48] INFO     (0:46:15) train_it 215001/1000000 | lr:1.33e-05 | loss:+2.7822                                                                 
+[16:34:54] INFO     (0:47:20) train_it 220001/1000000 | lr:1.20e-05 | loss:+2.7926                                                                 
+[16:35:55] INFO     (0:48:21) train_it 225001/1000000 | lr:1.09e-05 | loss:+2.7834                                                                 
+           INFO     (0:48:21) Saved latest(it=225000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:36:55] INFO     (0:49:22) train_it 230001/1000000 | lr:9.82e-06 | loss:+2.7861                                                                 
+[16:37:57] INFO     (0:50:23) train_it 235001/1000000 | lr:8.88e-06 | loss:+2.7789                                                                 
+[16:39:02] INFO     (0:51:28) train_it 240001/1000000 | lr:8.03e-06 | loss:+2.7932                                                                 
+           INFO     (0:51:29) Saved latest(it=240000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:40:07] INFO     (0:52:34) train_it 245001/1000000 | lr:7.27e-06 | loss:+2.7884                                                                 
+[16:41:13] INFO     (0:53:39) train_it 250001/1000000 | lr:6.57e-06 | loss:+2.7876                                                                 
+[16:42:15] INFO     (0:54:41) train_it 255001/1000000 | lr:5.94e-06 | loss:+2.7902                                                                 
+           INFO     (0:54:41) Saved latest(it=255000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:43:15] INFO     (0:55:42) train_it 260001/1000000 | lr:5.37e-06 | loss:+2.7747                                                                 
+[16:44:16] INFO     (0:56:42) train_it 265001/1000000 | lr:4.86e-06 | loss:+2.7748                                                                 
+[16:45:20] INFO     (0:57:47) train_it 270001/1000000 | lr:4.40e-06 | loss:+2.7961                                                                 
+[16:45:21] INFO     (0:57:47) Saved latest(it=270000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:46:25] INFO     (0:58:52) train_it 275001/1000000 | lr:3.98e-06 | loss:+2.7827                                                                 
+[16:47:30] INFO     (0:59:56) train_it 280001/1000000 | lr:3.60e-06 | loss:+2.7834                                                                 
+[16:48:31] INFO     (1:00:58) train_it 285001/1000000 | lr:3.25e-06 | loss:+2.7913                                                                 
+           INFO     (1:00:58) Saved latest(it=285000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:49:33] INFO     (1:01:59) train_it 290001/1000000 | lr:2.94e-06 | loss:+2.7885                                                                 
+[16:50:38] INFO     (1:03:04) train_it 295001/1000000 | lr:2.66e-06 | loss:+2.7900                                                                 
+[16:51:40] INFO     (1:04:07) train_it 300001/1000000 | lr:2.41e-06 | loss:+2.7854                                                                 
+           INFO     (1:04:07) Saved latest(it=300000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:52:42] INFO     (1:05:08) train_it 305001/1000000 | lr:2.18e-06 | loss:+2.7824                                                                 
+[16:53:46] INFO     (1:06:13) train_it 310001/1000000 | lr:1.97e-06 | loss:+2.7836                                                                 
+[16:54:48] INFO     (1:07:15) train_it 315001/1000000 | lr:1.78e-06 | loss:+2.7844                                                                 
+           INFO     (1:07:15) Saved latest(it=315000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:55:49] INFO     (1:08:15) train_it 320001/1000000 | lr:1.61e-06 | loss:+2.7853                                                                 
+[16:56:49] INFO     (1:09:16) train_it 325001/1000000 | lr:1.46e-06 | loss:+2.7871                                                                 
+[16:57:51] INFO     (1:10:18) train_it 330001/1000000 | lr:1.32e-06 | loss:+2.7969                                                                 
+           INFO     (1:10:18) Saved latest(it=330000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[16:58:56] INFO     (1:11:22) train_it 335001/1000000 | lr:1.19e-06 | loss:+2.7776                                                                 
+[17:00:01] INFO     (1:12:27) train_it 340001/1000000 | lr:1.08e-06 | loss:+2.7750                                                                 
+[17:01:05] INFO     (1:13:31) train_it 345001/1000000 | lr:9.73e-07 | loss:+2.7752                                                                 
+           INFO     (1:13:31) Saved latest(it=345000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:02:05] INFO     (1:14:32) train_it 350001/1000000 | lr:8.80e-07 | loss:+2.7811                                                                 
+[17:03:09] INFO     (1:15:36) train_it 355001/1000000 | lr:7.96e-07 | loss:+2.7828                                                                 
+[17:04:13] INFO     (1:16:39) train_it 360001/1000000 | lr:7.20e-07 | loss:+2.7853                                                                 
+           INFO     (1:16:39) Saved latest(it=360000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:05:13] INFO     (1:17:40) train_it 365001/1000000 | lr:6.51e-07 | loss:+2.7778                                                                 
+[17:06:16] INFO     (1:18:43) train_it 370001/1000000 | lr:5.89e-07 | loss:+2.7699                                                                 
+[17:07:21] INFO     (1:19:48) train_it 375001/1000000 | lr:5.33e-07 | loss:+2.7793                                                                 
+           INFO     (1:19:48) Saved latest(it=375000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:08:26] INFO     (1:20:52) train_it 380001/1000000 | lr:4.82e-07 | loss:+2.7901                                                                 
+[17:09:29] INFO     (1:21:56) train_it 385001/1000000 | lr:4.36e-07 | loss:+2.7756                                                                 
+[17:10:30] INFO     (1:22:56) train_it 390001/1000000 | lr:3.94e-07 | loss:+2.7839                                                                 
+           INFO     (1:22:57) Saved latest(it=390000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:11:31] INFO     (1:23:57) train_it 395001/1000000 | lr:3.56e-07 | loss:+2.7764                                                                 
+[17:12:33] INFO     (1:24:59) train_it 400001/1000000 | lr:3.22e-07 | loss:+2.7820                                                                 
+[17:13:33] INFO     (1:25:59) train_it 405001/1000000 | lr:2.91e-07 | loss:+2.7872                                                                 
+           INFO     (1:25:59) Saved latest(it=405000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:14:38] INFO     (1:27:05) train_it 410001/1000000 | lr:2.64e-07 | loss:+2.7839                                                                 
+[17:15:43] INFO     (1:28:09) train_it 415001/1000000 | lr:2.38e-07 | loss:+2.7842                                                                 
+[17:16:43] INFO     (1:29:10) train_it 420001/1000000 | lr:2.16e-07 | loss:+2.7800                                                                 
+           INFO     (1:29:10) Saved latest(it=420000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+ERROR: Unexpected segmentation fault encountered in worker.
+[17:17:44] INFO     (1:30:11) train_it 425001/1000000 | lr:1.95e-07 | loss:+2.7888                                                                 
+[17:18:45] INFO     (1:31:12) train_it 430001/1000000 | lr:1.76e-07 | loss:+2.7848                                                                 
+[17:19:49] INFO     (1:32:16) train_it 435001/1000000 | lr:1.59e-07 | loss:+2.7738                                                                 
+           INFO     (1:32:16) Saved latest(it=435000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:20:52] INFO     (1:33:18) train_it 440001/1000000 | lr:1.44e-07 | loss:+2.7841                                                                 
+[17:21:52] INFO     (1:34:19) train_it 445001/1000000 | lr:1.30e-07 | loss:+2.7745                                                                 
+[17:22:53] INFO     (1:35:19) train_it 450001/1000000 | lr:1.18e-07 | loss:+2.7873                                                                 
+           INFO     (1:35:19) Saved latest(it=450000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:23:55] INFO     (1:36:22) train_it 455001/1000000 | lr:1.07e-07 | loss:+2.7688                                                                 
+[17:25:01] INFO     (1:37:27) train_it 460001/1000000 | lr:9.65e-08 | loss:+2.7830                                                                 
+[17:26:03] INFO     (1:38:29) train_it 465001/1000000 | lr:8.72e-08 | loss:+2.7747                                                                 
+           INFO     (1:38:29) Saved latest(it=465000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:27:07] INFO     (1:39:34) train_it 470001/1000000 | lr:7.89e-08 | loss:+2.7797                                                                 
+[17:28:12] INFO     (1:40:38) train_it 475001/1000000 | lr:7.14e-08 | loss:+2.7739                                                                 
+[17:29:13] INFO     (1:41:40) train_it 480001/1000000 | lr:6.45e-08 | loss:+2.7862                                                                 
+           INFO     (1:41:40) Saved latest(it=480000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:30:15] INFO     (1:42:41) train_it 485001/1000000 | lr:5.84e-08 | loss:+2.7776                                                                 
+[17:31:20] INFO     (1:43:46) train_it 490001/1000000 | lr:5.28e-08 | loss:+2.7909                                                                 
+[17:32:25] INFO     (1:44:52) train_it 495001/1000000 | lr:4.77e-08 | loss:+2.7823                                                                 
+           INFO     (1:44:52) Saved latest(it=495000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:33:31] INFO     (1:45:57) train_it 500001/1000000 | lr:4.32e-08 | loss:+2.7791                                                                 
+[17:34:36] INFO     (1:47:03) train_it 505001/1000000 | lr:3.90e-08 | loss:+2.7800                                                                 
+[17:35:41] INFO     (1:48:08) train_it 510001/1000000 | lr:3.53e-08 | loss:+2.7770                                                                 
+[17:35:42] INFO     (1:48:08) Saved latest(it=510000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:36:47] INFO     (1:49:13) train_it 515001/1000000 | lr:3.19e-08 | loss:+2.7876                                                                 
+[17:37:53] INFO     (1:50:20) train_it 520001/1000000 | lr:2.89e-08 | loss:+2.7865                                                                 
+[17:38:58] INFO     (1:51:24) train_it 525001/1000000 | lr:2.61e-08 | loss:+2.7864                                                                 
+           INFO     (1:51:25) Saved latest(it=525000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:39:59] INFO     (1:52:25) train_it 530001/1000000 | lr:2.36e-08 | loss:+2.7852                                                                 
+[17:41:03] INFO     (1:53:30) train_it 535001/1000000 | lr:2.14e-08 | loss:+2.7727                                                                 
+[17:42:09] INFO     (1:54:36) train_it 540001/1000000 | lr:1.93e-08 | loss:+2.7814                                                                 
+           INFO     (1:54:36) Saved latest(it=540000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:43:14] INFO     (1:55:41) train_it 545001/1000000 | lr:1.75e-08 | loss:+2.7753                                                                 
+[17:44:20] INFO     (1:56:46) train_it 550001/1000000 | lr:1.58e-08 | loss:+2.7798                                                                 
+[17:45:21] INFO     (1:57:48) train_it 555001/1000000 | lr:1.43e-08 | loss:+2.7737                                                                 
+           INFO     (1:57:48) Saved latest(it=555000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:46:24] INFO     (1:58:51) train_it 560001/1000000 | lr:1.29e-08 | loss:+2.7763                                                                 
+[17:47:27] INFO     (1:59:54) train_it 565001/1000000 | lr:1.17e-08 | loss:+2.7931                                                                 
+[17:48:27] INFO     (2:00:54) train_it 570001/1000000 | lr:1.06e-08 | loss:+2.7720                                                                 
+           INFO     (2:00:54) Saved latest(it=570000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:49:28] INFO     (2:01:54) train_it 575001/1000000 | lr:9.56e-09 | loss:+2.7745                                                                 
+[17:50:32] INFO     (2:02:59) train_it 580001/1000000 | lr:8.65e-09 | loss:+2.7798                                                                 
+[17:51:34] INFO     (2:04:00) train_it 585001/1000000 | lr:7.82e-09 | loss:+2.7849                                                                 
+           INFO     (2:04:00) Saved latest(it=585000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:52:35] INFO     (2:05:01) train_it 590001/1000000 | lr:7.07e-09 | loss:+2.7804                                                                 
+[17:53:37] INFO     (2:06:03) train_it 595001/1000000 | lr:6.40e-09 | loss:+2.7852                                                                 
+[17:54:42] INFO     (2:07:08) train_it 600001/1000000 | lr:5.78e-09 | loss:+2.7929                                                                 
+           INFO     (2:07:08) Saved latest(it=600000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:55:43] INFO     (2:08:10) train_it 605001/1000000 | lr:5.23e-09 | loss:+2.7756                                                                 
+[17:56:44] INFO     (2:09:10) train_it 610001/1000000 | lr:4.73e-09 | loss:+2.7772                                                                 
+[17:57:44] INFO     (2:10:11) train_it 615001/1000000 | lr:4.28e-09 | loss:+2.7841                                                                 
+           INFO     (2:10:11) Saved latest(it=615000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[17:58:49] INFO     (2:11:15) train_it 620001/1000000 | lr:3.87e-09 | loss:+2.7795                                                                 
+[17:59:54] INFO     (2:12:20) train_it 625001/1000000 | lr:3.50e-09 | loss:+2.7792                                                                 
+[18:00:59] INFO     (2:13:26) train_it 630001/1000000 | lr:3.16e-09 | loss:+2.7814                                                                 
+           INFO     (2:13:26) Saved latest(it=630000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:02:05] INFO     (2:14:31) train_it 635001/1000000 | lr:2.86e-09 | loss:+2.7869                                                                 
+[18:03:10] INFO     (2:15:37) train_it 640001/1000000 | lr:2.59e-09 | loss:+2.7815                                                                 
+[18:04:16] INFO     (2:16:43) train_it 645001/1000000 | lr:2.34e-09 | loss:+2.7832                                                                 
+           INFO     (2:16:43) Saved latest(it=645000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:05:22] INFO     (2:17:48) train_it 650001/1000000 | lr:2.12e-09 | loss:+2.7817                                                                 
+[18:06:27] INFO     (2:18:54) train_it 655001/1000000 | lr:1.91e-09 | loss:+2.7897                                                                 
+[18:07:29] INFO     (2:19:55) train_it 660001/1000000 | lr:1.73e-09 | loss:+2.7853                                                                 
+           INFO     (2:19:55) Saved latest(it=660000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:08:30] INFO     (2:20:57) train_it 665001/1000000 | lr:1.57e-09 | loss:+2.7776                                                                 
+[18:09:35] INFO     (2:22:02) train_it 670001/1000000 | lr:1.42e-09 | loss:+2.7675                                                                 
+[18:10:40] INFO     (2:23:06) train_it 675001/1000000 | lr:1.28e-09 | loss:+2.7808                                                                 
+           INFO     (2:23:06) Saved latest(it=675000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:11:44] INFO     (2:24:11) train_it 680001/1000000 | lr:1.16e-09 | loss:+2.7753                                                                 
+[18:12:50] INFO     (2:25:16) train_it 685001/1000000 | lr:1.05e-09 | loss:+2.7833                                                                 
+[18:13:56] INFO     (2:26:22) train_it 690001/1000000 | lr:9.47e-10 | loss:+2.7773                                                                 
+           INFO     (2:26:22) Saved latest(it=690000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:15:00] INFO     (2:27:26) train_it 695001/1000000 | lr:8.57e-10 | loss:+2.7822                                                                 
+[18:16:00] INFO     (2:28:26) train_it 700001/1000000 | lr:7.75e-10 | loss:+2.7881                                                                 
+[18:17:01] INFO     (2:29:27) train_it 705001/1000000 | lr:7.01e-10 | loss:+2.7834                                                                 
+           INFO     (2:29:27) Saved latest(it=705000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:18:01] INFO     (2:30:28) train_it 710001/1000000 | lr:6.34e-10 | loss:+2.7841                                                                 
+[18:19:03] INFO     (2:31:30) train_it 715001/1000000 | lr:5.73e-10 | loss:+2.7887                                                                 
+[18:20:10] INFO     (2:32:36) train_it 720001/1000000 | lr:5.18e-10 | loss:+2.7833                                                                 
+           INFO     (2:32:36) Saved latest(it=720000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:21:15] INFO     (2:33:42) train_it 725001/1000000 | lr:4.69e-10 | loss:+2.7837                                                                 
+[18:22:21] INFO     (2:34:47) train_it 730001/1000000 | lr:4.24e-10 | loss:+2.7746                                                                 
+[18:23:27] INFO     (2:35:53) train_it 735001/1000000 | lr:3.83e-10 | loss:+2.7754                                                                 
+           INFO     (2:35:53) Saved latest(it=735000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:24:33] INFO     (2:36:59) train_it 740001/1000000 | lr:3.47e-10 | loss:+2.7859                                                                 
+[18:25:38] INFO     (2:38:05) train_it 745001/1000000 | lr:3.14e-10 | loss:+2.7777                                                                 
+[18:26:44] INFO     (2:39:10) train_it 750001/1000000 | lr:2.84e-10 | loss:+2.7829                                                                 
+           INFO     (2:39:10) Saved latest(it=750000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:27:50] INFO     (2:40:16) train_it 755001/1000000 | lr:2.57e-10 | loss:+2.7752                                                                 
+[18:28:55] INFO     (2:41:22) train_it 760001/1000000 | lr:2.32e-10 | loss:+2.7795                                                                 
+[18:30:01] INFO     (2:42:27) train_it 765001/1000000 | lr:2.10e-10 | loss:+2.7777                                                                 
+           INFO     (2:42:28) Saved latest(it=765000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:31:07] INFO     (2:43:33) train_it 770001/1000000 | lr:1.90e-10 | loss:+2.7739                                                                 
+[18:32:13] INFO     (2:44:39) train_it 775001/1000000 | lr:1.72e-10 | loss:+2.7798                                                                 
+[18:33:18] INFO     (2:45:44) train_it 780001/1000000 | lr:1.55e-10 | loss:+2.7755                                                                 
+           INFO     (2:45:45) Saved latest(it=780000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:34:23] INFO     (2:46:49) train_it 785001/1000000 | lr:1.40e-10 | loss:+2.7833                                                                 
+[18:35:23] INFO     (2:47:50) train_it 790001/1000000 | lr:1.27e-10 | loss:+2.7696                                                                 
+[18:36:24] INFO     (2:48:51) train_it 795001/1000000 | lr:1.15e-10 | loss:+2.7796                                                                 
+           INFO     (2:48:51) Saved latest(it=795000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:37:28] INFO     (2:49:54) train_it 800001/1000000 | lr:1.04e-10 | loss:+2.7803                                                                 
+[18:38:32] INFO     (2:50:59) train_it 805001/1000000 | lr:9.39e-11 | loss:+2.7890                                                                 
+[18:39:33] INFO     (2:51:59) train_it 810001/1000000 | lr:8.49e-11 | loss:+2.7795                                                                 
+           INFO     (2:51:59) Saved latest(it=810000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:40:36] INFO     (2:53:03) train_it 815001/1000000 | lr:7.68e-11 | loss:+2.7793                                                                 
+[18:41:41] INFO     (2:54:08) train_it 820001/1000000 | lr:6.95e-11 | loss:+2.7792                                                                 
+[18:42:42] INFO     (2:55:08) train_it 825001/1000000 | lr:6.28e-11 | loss:+2.7863                                                                 
+           INFO     (2:55:09) Saved latest(it=825000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:43:43] INFO     (2:56:09) train_it 830001/1000000 | lr:5.68e-11 | loss:+2.7800                                                                 
+[18:44:43] INFO     (2:57:09) train_it 835001/1000000 | lr:5.14e-11 | loss:+2.7831                                                                 
+[18:45:43] INFO     (2:58:10) train_it 840001/1000000 | lr:4.65e-11 | loss:+2.7841                                                                 
+           INFO     (2:58:10) Saved latest(it=840000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:46:45] INFO     (2:59:12) train_it 845001/1000000 | lr:4.20e-11 | loss:+2.7810                                                                 
+[18:47:50] INFO     (3:00:17) train_it 850001/1000000 | lr:3.80e-11 | loss:+2.7820                                                                 
+[18:48:56] INFO     (3:01:22) train_it 855001/1000000 | lr:3.44e-11 | loss:+2.7853                                                                 
+           INFO     (3:01:22) Saved latest(it=855000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:50:02] INFO     (3:02:28) train_it 860001/1000000 | lr:3.11e-11 | loss:+2.7786                                                                 
+[18:51:07] INFO     (3:03:33) train_it 865001/1000000 | lr:2.81e-11 | loss:+2.7782                                                                 
+[18:52:12] INFO     (3:04:39) train_it 870001/1000000 | lr:2.54e-11 | loss:+2.7876                                                                 
+           INFO     (3:04:39) Saved latest(it=870000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:53:18] INFO     (3:05:45) train_it 875001/1000000 | lr:2.30e-11 | loss:+2.7781                                                                 
+[18:54:24] INFO     (3:06:51) train_it 880001/1000000 | lr:2.08e-11 | loss:+2.7769                                                                 
+[18:55:30] INFO     (3:07:56) train_it 885001/1000000 | lr:1.88e-11 | loss:+2.7754                                                                 
+           INFO     (3:07:56) Saved latest(it=885000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:56:35] INFO     (3:09:01) train_it 890001/1000000 | lr:1.70e-11 | loss:+2.7786                                                                 
+[18:57:41] INFO     (3:10:07) train_it 895001/1000000 | lr:1.54e-11 | loss:+2.7786                                                                 
+[18:58:46] INFO     (3:11:12) train_it 900001/1000000 | lr:1.39e-11 | loss:+2.7747                                                                 
+           INFO     (3:11:13) Saved latest(it=900000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[18:59:49] INFO     (3:12:16) train_it 905001/1000000 | lr:1.26e-11 | loss:+2.7826                                                                 
+[19:00:52] INFO     (3:13:19) train_it 910001/1000000 | lr:1.14e-11 | loss:+2.7766                                                                 
+[19:01:57] INFO     (3:14:23) train_it 915001/1000000 | lr:1.03e-11 | loss:+2.7705                                                                 
+           INFO     (3:14:23) Saved latest(it=915000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:03:00] INFO     (3:15:27) train_it 920001/1000000 | lr:9.31e-12 | loss:+2.7858                                                                 
+[19:04:05] INFO     (3:16:31) train_it 925001/1000000 | lr:8.42e-12 | loss:+2.7787                                                                 
+[19:05:10] INFO     (3:17:37) train_it 930001/1000000 | lr:7.61e-12 | loss:+2.7892                                                                 
+[19:05:11] INFO     (3:17:37) Saved latest(it=930000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:06:14] INFO     (3:18:41) train_it 935001/1000000 | lr:6.88e-12 | loss:+2.7829                                                                 
+[19:07:15] INFO     (3:19:42) train_it 940001/1000000 | lr:6.23e-12 | loss:+2.7801                                                                 
+[19:08:16] INFO     (3:20:42) train_it 945001/1000000 | lr:5.63e-12 | loss:+2.7845                                                                 
+           INFO     (3:20:42) Saved latest(it=945000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:09:21] INFO     (3:21:47) train_it 950001/1000000 | lr:5.09e-12 | loss:+2.7695                                                                 
+[19:10:25] INFO     (3:22:51) train_it 955001/1000000 | lr:4.60e-12 | loss:+2.7819                                                                 
+[19:11:26] INFO     (3:23:52) train_it 960001/1000000 | lr:4.16e-12 | loss:+2.7818                                                                 
+           INFO     (3:23:52) Saved latest(it=960000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:12:30] INFO     (3:24:56) train_it 965001/1000000 | lr:3.77e-12 | loss:+2.7687                                                                 
+[19:13:35] INFO     (3:26:01) train_it 970001/1000000 | lr:3.41e-12 | loss:+2.7745                                                                 
+[19:14:36] INFO     (3:27:02) train_it 975001/1000000 | lr:3.08e-12 | loss:+2.7719                                                                 
+           INFO     (3:27:02) Saved latest(it=975000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:15:40] INFO     (3:28:06) train_it 980001/1000000 | lr:2.79e-12 | loss:+2.7900                                                                 
+[19:16:45] INFO     (3:29:11) train_it 985001/1000000 | lr:2.52e-12 | loss:+2.7777                                                                 
+[19:17:45] INFO     (3:30:12) train_it 990001/1000000 | lr:2.28e-12 | loss:+2.7915                                                                 
+           INFO     (3:30:12) Saved latest(it=990000) checkpoint to                                                                                
+                    opt.ckpt_path=PosixPath('results/BSBUnfold_OmniFold_train_small_KL1fix_iter10M_4x45_SelfCond')!                                
+[19:18:48] INFO     (3:31:15) train_it 995001/1000000 | lr:2.06e-12 | loss:+2.7749                                                                 
+[19:19:53] INFO     (3:32:20) Finish!                                                                                                              
+ srun: Job 26183208 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=26183208.1
+usage: sample.py [-h] [--seed SEED] [--n-gpu-per-node N_GPU_PER_NODE] [--master-address MASTER_ADDRESS] [--node-rank NODE_RANK]
+                 [--num-proc-node NUM_PROC_NODE] [--partition PARTITION] [--sample-name SAMPLE_NAME] [--batch-size BATCH_SIZE] [--ckpt CKPT]
+                 [--nfe NFE] [--clip-denoise] [--use-fp16] [--n-ensemble N_ENSEMBLE] [--n-ensemble-start N_ENSEMBLE_START] [--n-eval N_EVAL]
+                 [--save-target SAVE_TARGET] [--hidden-dim HIDDEN_DIM] [--nresnet NRESNET] [--bnn-map]
+sample.py: error: unrecognized arguments: --cond-x1
+srun: error: nid003908: task 0: Exited with exit code 2
+srun: Terminating StepId=26183208.1
